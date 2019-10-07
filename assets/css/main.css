@@ -356,8 +356,10 @@
     text-align: center;
     color: #fffcf4; }
   .appeal__form {
+    max-width: 820px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: center; }
     .appeal__form__block:first-child {
       margin-right: 20px; }

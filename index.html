@@ -254,7 +254,7 @@
 			<section class="appeal">
 				<div class="appeal__wrapper">
 					<h2 class="appeal__title">SAY HI</h2>
-					<form class="appeal__form">
+					<form class="appeal__form" name="form" method="post" action="https://mcslayer.com/hillel/post.php">
 						<label for="appeal__name" class="appeal__form__block">
 							<input type="text" name="name" placeholder="Your Name" id="appeal__name" class="appeal__form__name appeal__form__field">
 						</label>
@@ -263,11 +263,11 @@
 						</label>
 						<label for="appeal__message" class="contact__form__block">
 							<textarea name="message" placeholder="Your Message..." id="appeal__message" class="appeal__form__message appeal__form__field"></textarea>
+						</label>
+						<label for="appeal__submit" class="contact__form__block appeal__label">
+							<input type="submit" value="Send Message" id="appeal__submit" class="appeal__submit">
 						</label>						
 					</form>
-					<label for="appeal__submit" class="appeal__label">
-						<input type="submit" value="Send Message" id="appeal__submit" class="appeal__submit">
-					</label>
 				</div>
 			</section>
 			<section class="info">
